@@ -1,0 +1,132 @@
+/* Write some CSS below */
+body {
+    background-color:#DBE7C9;
+    color:#789461;
+    font-family: "Lora", serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+h1 { 
+    color: #294B29;
+    letter-spacing: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+h2 {
+    color: #50623A;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+}
+a:hover {
+    color: black;
+}
+
+#background-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+}
+
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba (0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.btn-blue {
+    background-color: green ;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    background-color: black ;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+#monuments p {
+    margin-bottom: 40px;
+}
+
+#restaurant p {
+    margin-bottom: 40px;
+}
+
+#bar p {
+    margin-bottom: 40px;
+}
+
+
+
+.fa-facebook {
+    font-size: 30px;
+}
+
+.fa-twitter {
+    font-size: 30px;
+}
+
+.fa-instagram {
+    font-size: 30px;
+}
